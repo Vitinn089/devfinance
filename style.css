@@ -1,0 +1,118 @@
+/* ========== Header ================ */
+header {
+    width: 100vw;
+}
+
+header {
+    padding: 1.5em 0 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary-dark);
+}
+
+header img {
+    height: 1em;
+}
+
+.logo {
+    margin-right: .3em;
+}
+
+/* ========== Main ================ */
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto
+}
+
+h2 {
+    font-weight: 500;
+    margin-bottom: .8em;
+}
+
+#balance h2{
+    color: var(--color-background-secondary);
+}
+
+/* ========== Balance ================ */
+
+#balance {
+    margin-top: -6em;
+}
+
+.card {
+    color: var(--color-text-in-title);
+    background-color: var(--color-background-secondary);
+    margin-bottom: 1.3em;
+    border-radius: .2em;
+    padding: 1.5em;
+}
+.card:nth-of-type(3) {
+    color: var(--color-background-secondary);
+    background-color: var(--color-primary);
+}
+
+.card h3 {
+    font: 400 1.4rem "Poppins", sans-serif, monospace;
+}
+
+.card h3 + p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5em;
+}
+
+/* ========== Transaction ================ */
+
+
+table,
+thead,
+tbody {
+    display: block;
+}
+
+thead tr {
+    background-color: var(--color-background-secondary);
+}
+
+tbody tr {
+    background-color: var(--color-background-secondary-to);
+
+}
+
+tr {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: .5em;
+    border-radius: .2em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+th,
+td {
+    text-align: left;
+    width: 33%;
+    font-weight: 400;
+    color: var(--color-text);
+}
+
+th {
+    color: var(--color-text-in-title);
+}
+
+/* ========== Footer ================ */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    font-size: .9em;
+    padding: 2em 0 1.5em;
+}
